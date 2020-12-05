@@ -11,7 +11,7 @@ $ pkg update && pkg update
 
 $ pkg install git
 
-$ git clone https://github.com/darkvsp/cam.git
+$ git clone https://github.com/darkvsp/CAM.git
 
 $ cd cam
 
