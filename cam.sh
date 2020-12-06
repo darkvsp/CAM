@@ -18,7 +18,7 @@ then
     echo 'please wait...'
     echo "captured"
     sleep 1.5
-    ./cam.sh
+    cam.sh
 elif [ "$c" == 1 ];
 then
     read -p "Enter the file name: " n
@@ -26,7 +26,7 @@ then
     echo 'please wait...'
     echo "captured"
     sleep 1.5
-    ./cam.sh
+    cam.sh
 elif [ "$c" == 2 ];
 then
     read -p "Enter the file name: " n
@@ -34,7 +34,7 @@ then
     echo 'please wait...'
     echo "captured"
     sleep 1.5
-    ./cam.sh
+    cam.sh
 elif [ "$c" == 9 ];
 then
     echo "Thanks for using!"
@@ -43,6 +43,6 @@ then
 else
     echo "Chose correct option"
     sleep 1.5
-    ./cam.sh
+    cam.sh
 fi
 printf '\e[0m'
